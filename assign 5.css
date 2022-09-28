@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 135vh;
+    background-color: yellow;
+}
+
+h1{
+    font-size: 2.1rem;
+    text-align:center;
+}
+
+.lists{
+    width: 50rem;
+    height: 46rem;
+    background-color: none;
+    margin-left: 20rem;
+}
+
+.Box{
+    width: 7rem;
+    height: 7rem;
+    background-color:rgb(3, 109, 184, 0.811);
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    transition: width 2s, height 2s, transform 1s;
+    animation: myanibox 2s ease-in infinite;
+}
+
+  @keyframes myanibox {
+    0% {transform: skewX(-30deg); }
+    100% {transform: skew(30deg); }
+  }
+
+.Box1{
+    width: 7rem;
+    height: 7rem;
+    background-color:rgb(174, 156, 150);
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    transition: width 2s, height 2s, transform 1s;
+    animation: myanibox1 2s ease-in infinite;
+}
+
+@keyframes myanibox1 {
+    0% {transform: skewY(-30deg); }
+    100% {transform: skewY(30deg); }
+  }
+
+.Box2{
+    width: 8rem;
+    height: 8rem;
+    background-color: rgb(3, 109, 184, 0.811);
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    transition: width 2s, height 2s, transform 2s;
+    animation: myanibox2 2s ease infinite;
+}
+
+@keyframes myanibox2 {
+    0% {transform: rotate(0deg); }
+    100% {transform: rotate(360deg); }
+  }
+
+.Box3{
+    width: 8rem;
+    height: 8rem;
+    background-color: rgb(3, 109, 184, 0.811);
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    transition: width 2s, height 2s, transform 2s;
+    animation: myanimation3 2s ease infinite;
+    border: 3px solid rgb(3, 46, 76, 0.878);
+}
+
+@keyframes myanimation3 {
+    0% {transform: rotateX(0deg); }
+    100% {transform: rotateX(60deg); }
+  }
+
+.Box4{
+    width: 8rem;
+    height: 8rem;
+    background-color: rgb(179, 15, 15);
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    transition: width 2s, height 2s, transform 1s;
+    animation: myanimation6 2s ease-in infinite;
+    border: 3px solid brown;
+
+}
+
+@keyframes myanimation6 {
+    0% {transform: rotateY(0deg); }
+    100% {transform: rotateY(60deg); }
+  }
+
+.Box5{
+    width: 8rem;
+    height: 8rem;
+    background-color:seagreen;
+    display: inline-block;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    transition: width 2s, height 2s, transform 2s;
+    border: 3px solid #185030;
+    animation: myanimation5 2s ease-in infinite;
+}
+
+@keyframes myanimation5 {
+    0% {transform: rotateZ(0deg); }
+    100% {transform: rotateZ(360deg); }
+  }
+
+#a1{
+    font-size: 2rem;
+    color: rgb(12, 12, 99);
+    text-shadow: 1px 1px 1px rgb(65, 32, 21);
+}
